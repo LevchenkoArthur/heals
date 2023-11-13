@@ -1,4 +1,4 @@
-/*Обнуление*/
+
 *{padding: 0;margin: 0;border: 0;}
 *,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
 
@@ -215,10 +215,10 @@ header{
 }
 
 .container__section2{
-	max-width: 1200px;
 	margin: auto;
 	display: flex;
 	justify-content: space-between;
+	max-width: 1200px;
 }
 
 .article__relief{
@@ -230,6 +230,7 @@ header{
 	position: absolute;
 	width: 100%;
 	top: -170px;
+	
 }
 
 
@@ -402,6 +403,14 @@ header{
 	position: relative;
 }
 
+.order2{
+	order: 2;
+}
+
+.order1{
+	order: 1;
+}
+
 .phone__content{
 	position: absolute;
 	left:32.5%;
@@ -505,11 +514,11 @@ header{
 
 
 .container__flex{
-	max-width: 1200px;
 	margin: auto;
 	justify-content: center;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
+	margin-bottom: 80px;
 }
 
 .wraper__card{
@@ -521,7 +530,7 @@ header{
 	padding-left: 28px;
 	padding-right: 28px;
 	height: 144px;
-	max-width: 300px;
+	width: 144px
 
 	
 	

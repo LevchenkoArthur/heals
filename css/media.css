@@ -1,0 +1,198 @@
+
+@media (max-width: 1230px){
+	.container__header{
+		margin: 0 20px;
+	}
+	.section3{
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+}
+
+@media (max-width: 901px){
+
+}
+
+
+
+
+@media (max-width: 901px){
+	.container__header{
+		margin: 0 20px;
+	}
+
+	.section2{
+		padding-top: 0px;
+	}
+
+	.section2 article{
+		margin: auto;
+		position: inherit;
+	}
+	.container__section1{
+		margin: 0 20px;
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.section1{
+		padding: 0 15px;
+	}
+	
+	}
+	footer{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+
+	.container__section2 article{
+		margin-bottom: 50px;
+		
+	}
+
+	.title__howit{
+		margin-bottom: 50px;
+	}
+
+
+	.section4{
+		padding-top: 30px;
+	}
+	.container__section5{
+		padding-bottom: 15px;
+	}
+
+
+
+@media (max-width: 1078px){
+	.container__flex{
+		flex-wrap: wrap;
+		max-width: 410px;
+		align-items: center;
+		margin: auto;
+		margin-bottom: 50px;
+	}
+	
+	.container__flex article{
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-width: 1156px){
+	.qwe{
+		flex-direction: column;
+		
+	}
+	.qwe li{
+		margin: auto;
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 1018px){
+	.container__section2{
+		flex-direction: column;
+		align-items: center;
+	}
+	.title__howit{
+		margin-bottom: 50px;
+	}
+}
+
+@media (max-width: 519px){
+	header nav{
+		display:none;
+	}
+	
+	.link__list{
+		max-width: 200px;
+	}
+	.list{
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+
+	.section1 .title__article1{
+		text-align: center;
+	}
+	
+	.p__empathy{
+		text-align: center;
+	}
+
+	.p__we{
+		text-align: center;
+	}
+
+	.section5{
+		padding-bottom: 50px;
+	}
+
+	.container__section5{
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+}
+
+@media (max-width: 736px){
+	.lists{
+		flex-direction: column;
+		align-items: center;
+		
+	}
+
+	.company__list{
+		margin-bottom: 30px;
+	}
+
+	.subscribe{
+		flex-direction: column;
+		justify-content: inherit;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.subscribe li{
+		margin-bottom: 30px
+	};
+
+	.flex_containerlist{
+		justify-content: space-around;
+	}
+}
+
+@media (max-width: 854px){
+	.section3{
+		padding-bottom: 0;
+	}
+
+	.container__section3{
+		flex-direction: column;
+		justify-content: inherit;
+		margin-bottom: 50px;
+	}
+
+	.last__container{
+		margin-bottom: inherit;
+	}
+
+	.order1{
+		order:2;
+	}
+	.order2{
+		order:1;
+	}
+
+	.container__section3 article{
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	.title__section3{
+		text-align: center;
+	}
+
+	.p__section3{
+		text-align: center;
+	}
+}
