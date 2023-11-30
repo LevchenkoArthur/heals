@@ -552,8 +552,8 @@ header{
 
 .logo__card{
 	position: absolute;
-	left: -15%;
-	top: -15%
+	left: -5%;
+	top: -6%;
 }
 
 
@@ -985,3 +985,78 @@ header{
 }
 
 
+
+.faq{
+	padding: 100px;
+	background: white;
+
+}
+
+.faq h4{
+	color: black;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 65px;
+	font-style: normal;
+	margin-bottom: 20px;
+}
+
+.container{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.ui-accordion-header{
+	border: 2px black solid;
+	background-color: white;
+	
+	
+}
+
+.ui-widget-content{
+	border: 2px solid black;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-color: #f8f3db;
+}
+
+.ui-accordion .ui-accordion-header{
+	margin: 10px 0px 0px 0px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px ;
+}
+
+.ui-corner-top{
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+}
+
+
+.ui-icon{
+	position: absolute;
+	right: 15px;
+	top: 18px;
+	color: black;
+}
+
+.accordion p{
+	font-size: 20px;
+}
+
+
+.ui-accordion-header.ui-state-active{
+	color: black;
+	background-color: #f8f3db;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 0px;
+	border-bottom: none;
+	border-bottom-right-radius: 0px;
+
+}
+
+
+.ui-accordion .ui-accordion-header{
+	padding-left: 30px;
+	font-size: 20px;
+}
