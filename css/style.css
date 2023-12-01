@@ -1035,7 +1035,7 @@ header{
 .ui-icon{
 	position: absolute;
 	right: 15px;
-	top: 18px;
+	top: 16px;
 	color: black;
 }
 
@@ -1059,4 +1059,26 @@ header{
 .ui-accordion .ui-accordion-header{
 	padding-left: 30px;
 	font-size: 20px;
+}
+
+
+.ui-icon{
+	background-image: url("../images/noactived.svg");
+	width: 20px;
+	margin-right: 10px;
+}
+
+.ui-icon-triangle-1-e{
+	background-position: 0px 0px;
+}
+
+
+.ui-state-active .ui-icon{
+	background-image: url("../images/actived.svg");
+	width: 20px;
+	margin-right: 10px;
+}
+
+.ui-icon-triangle-1-s{
+	background-position: 0px 0px;
 }
