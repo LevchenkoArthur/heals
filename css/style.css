@@ -20,10 +20,24 @@ body{
 	background-color: #F4EFE9;;
 }
 
+
+
 header{
-	padding-top: 40px;
-	margin-bottom: 80px;
+	padding-top: 30px;
+	margin-bottom: 30px;
+	background-color: #F4EFE9;
 }
+
+.container{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.dflex_spacebet{
+	display: flex;
+	justify-content: space-between;
+}
+
 
 .container__header{
 	display: flex;
@@ -32,25 +46,25 @@ header{
 	max-width: 1200px;
 }
 
-.menu{
-	padding-top: 8px;
+
+
+
+header nav ul{
 	display: flex;
 }
 
-.elements__menu{
-	margin-left: 40px;
+header nav ul li{
+	margin-left: 20px;
 }
 
-
-.style__menu{
+header nav ul li a{
 	color: #1E1928;
 	font-family: 'Inter', sans-serif;
-	font-size: 14px;
+	font-size: 13px;
 	font-style: normal;
 	font-weight: 400;
-	line-height: 20px; 
+	line-height: 20px; /* 153.846% */
 }
-
 
 
 
@@ -228,6 +242,7 @@ header{
 	padding-bottom: 80px;
 	max-width: 1200px;
 	position: absolute;
+	z-index: 2;
 	width: 100%;
 	top: -170px;
 	
@@ -1081,4 +1096,11 @@ header{
 
 .ui-icon-triangle-1-s{
 	background-position: 0px 0px;
+}
+
+
+.ui-state-hover .ui-icon{
+	background-image: url("../images/actived.svg");
+	width: 20px;
+	margin-right: 10px;
 }
